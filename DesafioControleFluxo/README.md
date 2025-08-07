@@ -1,6 +1,6 @@
 # 🔢 Projeto: Contador
 
-Este é um projeto simples em Java desenvolvido como parte de um exercício do curso de programação.   
+Este é um projeto simples em Java desenvolvido como parte de um exercício do bootcamp Santander Back-End com Java.   
 O objetivo é praticar a criação de métodos, tratamento de exceções personalizadas e manipulação de entrada de dados via terminal.
 
 ---
