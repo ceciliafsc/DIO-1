@@ -1,35 +1,9 @@
+//Calculadora com menu interativo
+
 import java.util.Scanner;
 import java.lang.Math;
 
 public class CalculadoraIterativa {
-    /*
-     * Calculadora com menu interativo
-     * Escreva um código para criação de uma calculadora para resolver operações
-     * básicas ( soma, subtração, divisão e multiplicação) se atentando com os
-     * seguintes requisitos:
-     * 
-     * A calculadora deve ter um menu onde o usuário informa o que deseja fazer
-     * (pelo número da opção) e após realizar a operação retornar ao menu enquanto
-     * ele não selecionar a opção de sair, as opções disponíveis devem ser as
-     * seguintes:
-     * 
-     * Realizar uma soma;
-     * Realizar uma subtração;
-     * Realizar uma multiplicação;
-     * Realizar uma divisão (utilizar variavel com pontos flutuantes para retornar
-     * divisão e resto do calculo);
-     * Elever um número a uma potência N;
-     * Sair da calculadora.
-     * (Opcional) Para as operações de subtração e soma após o usuário informar os 2
-     * primeiros números disponibilizar um submenu com as seguintes opções:
-     * 
-     * Informar mais números para continuar a soma/subtração: Quando o usuário
-     * selecionar essa opção o código deve solicitar um novo número que sera usado
-     * para somar/subtrair com o resultado da operação selecionada ( ele poderá
-     * entrar nesse menu quantas vezes desejar utilizando o resultado);
-     * Sair da operação: Encerrar a operação e voltar para o menu principal da
-     * calculadora;
-     */
     public static void main(String[] args) throws Exception {
         Scanner entrada = new Scanner(System.in);
         int op = -1;
